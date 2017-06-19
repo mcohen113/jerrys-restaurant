@@ -43,6 +43,33 @@ figcaption {
   border-color: black;
 }
 
+#reservations {
+  height: 500px;
+  width: 882px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.reservation-boxes {
+
+
+  height: 250px;
+  width: 300px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+/*  padding-right: 5px;
+  padding-left: 40px;*/
+}
+
+#new {
+
+}
+
+#existing {
+
+}
+
 #come {
   height: 500px;
   width: 882px;
