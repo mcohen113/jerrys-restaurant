@@ -12,25 +12,57 @@ body {
 
 
 h1 {
+  font-size: 50px;
   text-align: center;
 }
 
+h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+
 figcaption {
+  font-size: 35px;
   text-align: center;
   text-decoration-style: bold;
   font-size: 120%;
+  margin-bottom: 2px
 }
 
+
 #toms {
-  height: 595px;
+  height: 500px;
   width: 882px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+#come {
+  height: 500px;
+  width: 882px;
+  border-width: 1px;
+  padding-right: 5px;
+  padding-left: 40px;
 }
 
 #map {
   height: 400px;
   width: 100%;
-/*  padding-left: 15px;
-  padding-right: 15px*/
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+#george {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
 }
 
 #comments {
