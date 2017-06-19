@@ -44,22 +44,20 @@ figcaption {
 }
 
 #reservations {
-  height: 500px;
+  height: 300px;
   width: 882px;
+  padding-right: 5px;
+  padding-left: 40px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .reservation-boxes {
-
-
   height: 250px;
-  width: 300px;
+  width: 400px;
   border-width: 2px;
   border-style: solid;
   border-color: black;
-/*  padding-right: 5px;
-  padding-left: 40px;*/
 }
 
 #new {
@@ -86,6 +84,10 @@ figcaption {
   border-color: black;
 }
 
+#customer-reviews {
+
+}
+
 #george {
   border-width: 1px;
   border-style: solid;
@@ -97,7 +99,4 @@ figcaption {
   font-size: 20px
 }
 
-#customer-reviews {
-  display: inline-block;
-}
 
