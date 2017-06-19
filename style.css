@@ -4,6 +4,13 @@ body {
   justify-content: center;
 }
 
+.container {
+  border-width: 3px;
+  border-style: double;
+  border-color: black
+}
+
+
 h1 {
   text-align: center;
 }
@@ -11,6 +18,7 @@ h1 {
 figcaption {
   text-align: center;
   text-decoration-style: bold;
+  font-size: 120%;
 }
 
 #toms {
