@@ -85,13 +85,23 @@ figcaption {
 }
 
 #customer-reviews {
-
+  height: 300px;
+  width: 882px;
+  padding-right: 5px;
+  padding-left: 40px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #george {
   border-width: 1px;
   border-style: solid;
   border-color: black;
+}
+
+#table {
+  height: 250px;
+  width: 400px;
 }
 
 #comments {
