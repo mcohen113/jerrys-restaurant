@@ -1,13 +1,36 @@
 body {
   background-color: #f7f6e3;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+figcaption {
+  text-align: center;
+  text-decoration-style: bold;
+}
+
+#toms {
+  height: 595px;
+  width: 882px;
 }
 
 #map {
   height: 400px;
   width: 100%;
+/*  padding-left: 15px;
+  padding-right: 15px*/
 }
 
 #comments {
   font-style: italic;
   font-size: 20px
 }
+
+#customer-reviews {
+  display: inline-block;
+}
+
