@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Jerry's</title>
   <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
 </head>
 <body>
   <div class="container">
@@ -33,8 +34,23 @@
     </div>
     <div id="come">
       <div id="map">
-        <h3>Find us here!!!</h3>
-
+        <h3>Come Dine With Us!</h3>
+             <script>
+              function initMap() {
+                var food = {lat: 40.8054491, lng: -73.9654415};
+                var map = new google.maps.Map(document.getElementById('map'), {
+                  zoom: 4,
+                  center: food
+                });
+                var marker = new google.maps.Marker({
+                  position: food,
+                  map: map
+                });
+              }
+            </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4evzBQWo0reNvERG4kpkexAfKlEN8aKg&callback=initMap">
+    </script>
       </div>
     </div>
     <div id="customer-reviews">
