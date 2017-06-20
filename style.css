@@ -1,15 +1,15 @@
 body {
   font-family: 'Slabo 27px', serif;
-  background-color: #f7f6e3;
-  background-image: ;
+  background-color: #0f63ad;
   display: flex;
   justify-content: center;
 }
 
 .container {
+  background-color: #f7f6e3;
   border-width: 3px;
   border-style: double;
-  border-color: black
+  border-color: #262d33
 }
 
 
@@ -42,7 +42,7 @@ figcaption {
   width: 882px;
   border-width: 2px;
   border-style: solid;
-  border-color: black;
+  border-color: #262d33;
 }
 
 #reservations {
@@ -59,7 +59,7 @@ figcaption {
   width: 400px;
   border-width: 2px;
   border-style: solid;
-  border-color: black;
+  border-color: #262d33;
 }
 
 h4 {
@@ -96,7 +96,7 @@ table {
 /*  padding: 10px 0px 0px 0px;*/
 /*  border-width: 1px;
   border-style: solid;
-  border-color: black;*/
+  border-color: #262d33;*/
 }
 
 #table {
@@ -123,7 +123,7 @@ table {
   width: 100%;
   border-width: 2px;
   border-style: solid;
-  border-color: black;
+  border-color: #262d33;
 }
 
 #customer-reviews {
@@ -138,7 +138,7 @@ table {
 #george {
   border-width: 1px;
   border-style: solid;
-  border-color: black;
+  border-color: #262d33;
 }
 
 
