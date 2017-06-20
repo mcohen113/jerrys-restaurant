@@ -76,11 +76,22 @@ button {
   width: 25.5vw;
   margin-left: 5px;
   margin-top: 30px;
+  background-color: #efefef;
 }
 
 .res-input {
   width: 25vw;
   margin: 5px;
+}
+
+table {
+  width: 350px;
+  background-color: #efefef;
+  margin-left: 25px;
+  padding: 10px 0px 0px 0px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
 }
 
 #existing {
