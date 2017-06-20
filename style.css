@@ -84,14 +84,19 @@ button {
   margin: 5px;
 }
 
+#table {
+  height: 250px;
+  width: 400px;
+}
+
 table {
   width: 350px;
   background-color: #efefef;
   margin-left: 25px;
-  padding: 10px 0px 0px 0px;
-  border-width: 1px;
+/*  padding: 10px 0px 0px 0px;*/
+/*  border-width: 1px;
   border-style: solid;
-  border-color: black;
+  border-color: black;*/
 }
 
 #existing {
@@ -129,10 +134,6 @@ table {
   border-color: black;
 }
 
-#table {
-  height: 250px;
-  width: 400px;
-}
 
 #comments {
   font-style: italic;
