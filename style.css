@@ -1,5 +1,7 @@
 body {
+  font-family: 'Slabo 27px', serif;
   background-color: #f7f6e3;
+  background-image: ;
   display: flex;
   justify-content: center;
 }
